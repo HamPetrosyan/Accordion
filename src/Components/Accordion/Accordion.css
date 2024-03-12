@@ -22,7 +22,7 @@ body {
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
-    padding: 18px;
+    padding: 20px 40px 20px 10px;
     position: relative;
     transition: background-color 0.3s ease;
 }
@@ -49,7 +49,6 @@ body {
 .fa-angle-up,
 .fa-angle-down {
     position: absolute;
-    font-size: 10px;
     bottom: 20px;
-    right: 3px;
+    right: 10px;
 }
