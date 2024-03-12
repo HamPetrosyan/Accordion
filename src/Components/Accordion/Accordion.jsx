@@ -12,7 +12,9 @@ const Accordion = ({ title, body }) => {
     <div className="accordion">
       <div className="accordion-header" onClick={toggleAccordion}>
         {title}
-        <i className={`fa-solid ${isOpen ? "fa-minus" : "fa-plus"}`}></i>
+        <i
+          className={`fa-solid ${isOpen ? "fa-angle-up" : "fa-angle-down"}`}
+        ></i>
       </div>
       <div className={`accordion-body ${isOpen ? "show" : ""}`}>{body}</div>
     </div>
