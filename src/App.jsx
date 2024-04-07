@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 import { Accordion } from "./Components/Accordion";
 
 export default function App() {
